@@ -1,0 +1,4 @@
+package com.chars;
+
+
+public class ElfRoyal extends Elf implements Royal{

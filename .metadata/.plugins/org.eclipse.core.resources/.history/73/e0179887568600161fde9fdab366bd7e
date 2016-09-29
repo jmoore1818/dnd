@@ -1,0 +1,10 @@
+package com.chars;
+
+import com.interfaces.Wizard;
+import com.parents.Human;
+
+public class HumanWizard extends Human implements Wizard{
+	
+	
+
+}

@@ -2,6 +2,8 @@ package com.app;
 
 import java.util.Scanner;
 
+import com.chars.HumanWizard;
+import com.chars.HumanWizard.*;
 import com.parents.*;
 
 public class App {
@@ -9,6 +11,15 @@ public class App {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		
+		HumanWizard ourHumanWizard = new HumanWizard();
+		
+		ourHumanWizard = ourHumanWizard.makeHumanWizard();
+		
+		System.out.println(ourHumanWizard.getWeapon());
+		System.out.println(ourHumanWizard.getHealth());
+		System.out.println(ourHumanWizard.getMagic());
+		
 
 		boolean userInputCorrect = false;
 
