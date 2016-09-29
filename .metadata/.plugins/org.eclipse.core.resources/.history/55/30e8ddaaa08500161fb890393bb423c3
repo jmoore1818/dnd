@@ -1,0 +1,14 @@
+package com.parents;
+
+public class Elf extends CharacterClass {
+
+	public Elf() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Elf(int health, int magic, String name) {
+		super(health, magic, name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

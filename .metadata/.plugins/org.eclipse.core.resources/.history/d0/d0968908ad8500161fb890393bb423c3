@@ -1,0 +1,15 @@
+package com.interfaces;
+	
+public interface Elf extends Classinterface  {
+		
+		@Override
+		void changeHealth();
+		
+		@Override
+		void changeMagic();
+		
+		@Override
+		void weaponType();
+
+		
+	}

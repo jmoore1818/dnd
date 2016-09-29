@@ -1,0 +1,10 @@
+package com.parents;
+
+public class CharacterClass {
+	
+	protected int health = 0;
+	protected int magic = 0;
+	protected String name = null;
+	
+
+}

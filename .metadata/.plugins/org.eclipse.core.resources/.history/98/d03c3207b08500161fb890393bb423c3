@@ -1,0 +1,15 @@
+package com.interfaces;
+
+public interface Smurf extends Classinterface  {
+	
+	@Override
+	void changeHealth();
+	
+	@Override
+	void changeMagic();
+	
+	@Override
+	void weaponType();
+
+	
+}

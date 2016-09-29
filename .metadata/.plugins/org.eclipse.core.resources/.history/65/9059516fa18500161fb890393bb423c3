@@ -1,0 +1,22 @@
+package com.app;
+
+import com.parents.*;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Welcome to Silly D'n'D\n:"
+				+ "Would you like to play as a/n" 
+				+ "Human Wizard\n"
+				+ "Elf Royal\n"
+				+ "Twi'lek Jedi\n"
+				+ "Smurf Warrio\n"
+				+ "Turtle Ninja");
+				
+
+	}
+
+}
